@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Display information</title>
+  <link rel="stylesheet" type="text/css" href="week3.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <form action="week3.php" method="post" class="mb-3">
+      <label>
+        <input type="radio" name="info" value="xdebug" checked="true"> Display Xdebug information
+        <span class="select"></span>
+      </label>
+      <label>
+        <input type="radio" name="info" value="php"> Display PHP information  
+        <span class="select"></span>
+      </label>
+      <label>
+        <input type="radio" name="info" value="path">Display path information
+        <span class="select"></span>
+      </label>
+      <input type="submit" name="submit" vlaue="Get Values">
+    </form>
+  </div>
+</body>
+</html>
